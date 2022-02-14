@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.weather-app-sun{
+   background-image: url('../assets/sunny.jpg');
+   background-size: cover;
+   min-height: 100vh;
+   background-position: bottom;
+   transition: 1s ease-in-out;
+}
+
+.weather-app-rain{
+    background-image: url('../assets/rainy.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: bottom;
+    transition: 1s ease-in-out;
+ }
+
+
+ .weather-app-snow{
+    background-image: url('../assets/snow.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: bottom;
+    transition: 1s ease-in-out;
+ }
+
+ 
+.weather-app-clear{
+    background-image: url('../assets/clear.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: bottom;
+    transition: 1s ease-in-out;
+ }
+
+  
+.weather-app-cloud{
+    background-image: url('../assets/clouds.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: bottom;
+    transition: 1s ease-in-out;
+ }
+
+
+
+.searchbox .searchtext{
+    width: 100%;
+    border: none;
+    font-size: 26px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 2px burlywood;
+    padding: 10px;
+    transition: 1s ease-in-out;
+
+}
+
+.searchbox .searchtext:focus{
+  box-shadow: 0px 2px grey;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.location .locationname{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px grey;
+    color: aliceblue;
+}
+
+.location .locationdate{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.temperaturebox{
+    text-align: center;
+}
+
+.temperaturebox .temperature{
+    font-size: 103px ;
+    background-color: rgba(250, 235, 215, 0.5);
+    margin-top: 25px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 900;
+    text-shadow: 2px 2px grey;
+    
+}
+
+
+.temperaturebox .temperaturetype{
+    font-size: 26px ;
+    margin-top: 25px;
+    font-weight: bold;
+    
+}
+
